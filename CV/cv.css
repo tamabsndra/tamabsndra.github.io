@@ -1,0 +1,229 @@
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-family: "Helvatica", sans-serif;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#aboutme ul {
+  list-style: none;
+}
+/* NAVBAR */
+#navbar {
+  transition: 0.5s linear;
+  top: -60px;
+}
+
+#navbarNavAltMarkup {
+  animation: 0.5s ease;
+}
+/* ------- */
+
+/* TOP */
+.top {
+  background-color: #191414;
+  border-radius: 10px;
+  padding: 20px 0 90px 0;
+}
+
+.top img {
+  height: 200px;
+  width: 200px;
+}
+
+.nama {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.link {
+  padding-top: 20px;
+  display: flex;
+  float: left;
+  width: 100%;
+  justify-content: center;
+}
+
+.link a {
+  float: left;
+  margin: 0px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  height: 40px;
+  width: 145px;
+  border-radius: 50px;
+  background-color: #1ed760;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 0.5s ease;
+}
+
+.link a:hover {
+  background-color: #1db954;
+  text-decoration: underline;
+}
+
+.link a:active {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 450px) {
+  .top h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 584px) {
+  .top {
+    padding-bottom: 15px;
+  }
+
+  .nama {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .link {
+    width: 100%;
+    float: none;
+    display: block;
+    padding-bottom: 0px;
+  }
+
+  .link a {
+    float: none;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
+/* ------------------------ */
+
+#aboutme {
+  margin-top: 10px;
+  background-color: #191414;
+  border-radius: 10px;
+  padding: 80px 30px 20px 30px;
+}
+
+#resume {
+  margin-top: 10px;
+  background-color: #191414;
+  border-radius: 10px;
+  padding: 80px 30px 20px 30px;
+}
+
+#portofolio {
+  margin-top: 10px;
+  background-color: #191414;
+  border-radius: 10px;
+  padding: 80px 30px 20px 30px;
+}
+
+#contact {
+  margin-top: 10px;
+  background-color: #191414;
+  border-radius: 10px;
+  padding: 80px 30px 20px 30px;
+  height: 850px;
+}
+
+.underline-title {
+  background: -webkit-linear-gradient(right, #1ed760, #1db954);
+  height: 4px;
+  border-radius: 50px;
+  margin: -0.3rem auto 1rem auto;
+  width: 120px;
+}
+
+.card img {
+  transition: 0.5s ease;
+}
+
+.card img:hover {
+  opacity: 50%;
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0px;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #ffffff;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: rgb(39, 39, 39);
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #1ed760;
+}
+
+#resume .resume-title {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1ed760;
+  position: relative;
+}
+#resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#resume .resume-item h5 {
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#resume .resume-item ul {
+  padding-left: 20px;
+}
+#resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+#resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+#resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: rgb(39, 39, 39);
+  border: 2px solid #1ed760;
+}
